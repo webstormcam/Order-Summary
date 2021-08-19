@@ -41,9 +41,17 @@ a{
 
 .plan{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 0px;
     background-color: #ededed;
     border-radius: 12px;
+}
+
+.annual{
+    display: flex;
+    flex-direction: column;
 }
 
 .pay{
@@ -63,3 +71,4 @@ a{
 .pay:hover{
     transform: scale(1.1);
 }
+
